@@ -2,15 +2,15 @@
 # Mô tả sơ lược
 Ứng dụng bán đồ ăn là một ứng dụng di động được phát triển trên nền tảng Android Studio, với mục đích giúp người dùng dễ dàng tìm kiếm, xem thông tin và đặt hàng đồ ăn từ các nhà hàng và cửa hàng thực phẩm gần họ. Ứng dụng sẽ cung cấp thông tin chi tiết về các món ăn, giá cả, đánh giá từ người dùng khác, và cho phép thanh toán trực tuyến.
 # Chức năng
-Đăng nhập và đăng ký tài khoản cho người dùng và các nhà cung cấp đồ ăn.
-Hiển thị danh sách các nhà hàng và cửa hàng thực phẩm gần người dùng.
-Tìm kiếm đồ ăn theo tên, loại, hoặc vị trí địa lý.
-Xem thông tin chi tiết về món ăn, bao gồm hình ảnh, mô tả, giá cả, và đánh giá.
-Thêm món ăn vào giỏ hàng và quản lý giỏ hàng.
-Đặt hàng và thanh toán trực tuyến.
-Theo dõi trạng thái đơn hàng.
-Gửi đánh giá và nhận xét về các món ăn và nhà cung cấp.
-Quản lý thông tin cá nhân và cài đặt tài khoản.
+1.Đăng nhập và đăng ký tài khoản cho người dùng và các nhà cung cấp đồ ăn.
+2.Hiển thị danh sách các nhà hàng và cửa hàng thực phẩm gần người dùng.
+3.Tìm kiếm đồ ăn theo tên, loại, hoặc vị trí địa lý.
+4.Xem thông tin chi tiết về món ăn, bao gồm hình ảnh, mô tả, giá cả, và đánh giá.
+5.Thêm món ăn vào giỏ hàng và quản lý giỏ hàng.
+6.Đặt hàng và thanh toán trực tuyến.
+7.Theo dõi trạng thái đơn hàng.
+8.Gửi đánh giá và nhận xét về các món ăn và nhà cung cấp.
+9.Quản lý thông tin cá nhân và cài đặt tài khoản.
 # Mục đích
 Mục đích chính của ứng dụng là tạo ra một nền tảng thuận tiện và tiết kiệm thời gian cho người dùng khi muốn mua đồ ăn từ các nhà hàng và cửa hàng thực phẩm. Đồng thời, ứng dụng cũng giúp các nhà cung cấp đồ ăn tiếp cận khách hàng mới và quản lý đơn hàng một cách hiệu quả.
 # Mục tiêu
