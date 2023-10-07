@@ -40,6 +40,7 @@ Theo dõi tiến độ dự án và đảm bảo tuân thủ lịch trình: Qu�
 Quản lý cơ sở dữ liệu và hệ thống thanh toán: Quản lý hệ thống
 Đảm bảo tính bảo mật và quyền riêng tư: Quản lý hệ thống
 Phân công sẽ được cập nhật và điều chỉnh theo tiến độ dự án và sự phát triển của ứng dụng bán đồ ăn.
+
 # Thành viên 
 1.Lê Hiếu Đức-21DH114387
 2.Nguyễn Trung Tính-21DH111923
