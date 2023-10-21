@@ -1,8 +1,10 @@
-package com.example.doanphanmem;
+package com.example.doanphanmem.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.doanphanmem.R;
 
 public class MainActivity extends AppCompatActivity {
 
