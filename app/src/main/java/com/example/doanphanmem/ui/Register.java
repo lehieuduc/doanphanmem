@@ -10,6 +10,8 @@ import android.widget.Toast;
 import com.example.doanphanmem.R;
 import com.google.android.material.textfield.TextInputEditText;
 
+import com.example.doanphanmem.R;
+
 public class Register extends AppCompatActivity {
   TextInputEditText edtName,edtPhone, edtEmail, edtPass, edtPassConfirm;
   //MyDatabase db;
