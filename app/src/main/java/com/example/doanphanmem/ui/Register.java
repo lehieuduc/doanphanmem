@@ -8,13 +8,15 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.doanphanmem.R;
+import com.example.doanphanmem.db.MyDatabase;
+import com.example.doanphanmem.model.User;
 import com.google.android.material.textfield.TextInputEditText;
 
 import com.example.doanphanmem.R;
 
 public class Register extends AppCompatActivity {
   TextInputEditText edtName,edtPhone, edtEmail, edtPass, edtPassConfirm;
-  //MyDatabase db;
+  MyDatabase db;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +26,7 @@ public class Register extends AppCompatActivity {
         edtEmail = (TextInputEditText) findViewById(R.id.edtEmailDki);
         edtPass = (TextInputEditText) findViewById(R.id.edtPassDki);
         edtPassConfirm = (TextInputEditText) findViewById(R.id.edtPassDki2);
-        //db = new MyDatabase(Register.this);
+        db = new MyDatabase(Register.this);
     }
     public void btnLogIn1_onclick(View view) {
         Intent intent = new Intent(Register.this, Login.class);
@@ -39,7 +41,7 @@ public class Register extends AppCompatActivity {
         String passConfirm = edtPassConfirm.getText().toString();
 
 
-        /*if(db.CheckRegister(mail)){
+        if(db.CheckRegister(mail)){
             Toast.makeText(this, "Email đã tồn tại!", Toast.LENGTH_SHORT).show();
         }
         else if(name.trim() == ""){
@@ -76,7 +78,6 @@ public class Register extends AppCompatActivity {
             Intent intent = new Intent(Register.this, Login.class);
             startActivity(intent);
         }
-        */
 
     }
 }
