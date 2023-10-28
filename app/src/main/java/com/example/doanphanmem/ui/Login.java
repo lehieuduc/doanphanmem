@@ -7,12 +7,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.doanphanmem.Activity.MainActivity;
 import com.example.doanphanmem.R;
+import com.example.doanphanmem.db.MyDatabase;
+import com.example.doanphanmem.model.User;
 import com.google.android.material.textfield.TextInputEditText;
 
 public class Login extends AppCompatActivity {
     TextInputEditText edtEmail, edtPassword;
-    //MyDatabase db;
+    MyDatabase db;
     static int login = 0;
     static String name = null;
     static String phone = null;
@@ -55,7 +58,7 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        //db = new MyDatabase(Login.this);
+        db = new MyDatabase(Login.this);
         edtEmail = (TextInputEditText) findViewById(R.id.edtEmailLogin);
         edtPassword = (TextInputEditText) findViewById(R.id.edtPasswordLogin);
 
@@ -69,7 +72,7 @@ public class Login extends AppCompatActivity {
     public void btnLoginOnclick(View view) {
         String email = edtEmail.getText().toString().trim();
         String pass = edtPassword.getText().toString().trim();
-       /* User user = db.Login(email, pass);
+        User user = db.Login(email, pass);
         if(user == null){
             Toast.makeText(Login.this, "Email hoặc mật khẩu không đúng!", Toast.LENGTH_LONG).show();
         } else {
@@ -86,6 +89,6 @@ public class Login extends AppCompatActivity {
                 startActivity(intent);
             }
 
-        }*/
+        }
     }
 }

@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginTop="15dp"
-            android:text="Đăng ký 4Food ngay !"
+            android:text="Đăng ký tại đây !"
             android:textColor="#EDE9E9"
             android:textSize="40sp"
             android:textStyle="bold" />

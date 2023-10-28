@@ -8,13 +8,15 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.doanphanmem.R;
+import com.example.doanphanmem.db.MyDatabase;
+import com.example.doanphanmem.model.User;
 import com.google.android.material.textfield.TextInputEditText;
 
 import com.example.doanphanmem.R;
 
 public class Register extends AppCompatActivity {
   TextInputEditText edtName,edtPhone, edtEmail, edtPass, edtPassConfirm;
-  //MyDatabase db;
+  MyDatabase db;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -70,12 +72,11 @@ public class Register extends AppCompatActivity {
             Toast.makeText(this, "Mật khẩu xác nhận không hợp lệ!", Toast.LENGTH_SHORT).show();
        }
         else {
-            user User = new user(name, mail, pass, phone, null, 0);
-            db.AddUser(user);
+            User User = new User(name, mail, pass, phone, null, 0);
+            db.AddUser(User);
             Toast.makeText(this, "Tạo tài khoản thành công", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(Register.this, Login.class);
             startActivity(intent);
         }
-
     }
 }
