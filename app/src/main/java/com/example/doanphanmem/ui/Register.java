@@ -39,7 +39,7 @@ public class Register extends AppCompatActivity {
         String passConfirm = edtPassConfirm.getText().toString();
 
 
-        /*if(db.CheckRegister(mail)){
+        if(db.CheckRegister(mail)){
             Toast.makeText(this, "Email đã tồn tại!", Toast.LENGTH_SHORT).show();
         }
         else if(name.trim() == ""){
@@ -70,13 +70,12 @@ public class Register extends AppCompatActivity {
             Toast.makeText(this, "Mật khẩu xác nhận không hợp lệ!", Toast.LENGTH_SHORT).show();
        }
         else {
-            User user = new User(name, mail, pass, phone, null, 0);
+            user User = new user(name, mail, pass, phone, null, 0);
             db.AddUser(user);
             Toast.makeText(this, "Tạo tài khoản thành công", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(Register.this, Login.class);
             startActivity(intent);
         }
-        */
 
     }
 }
