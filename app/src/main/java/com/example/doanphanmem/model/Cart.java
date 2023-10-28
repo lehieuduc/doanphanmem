@@ -83,4 +83,9 @@ public class Cart implements Serializable {
     public void setQuantity(int quantity) {
         Quantity = quantity;
     }
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> origin/main
