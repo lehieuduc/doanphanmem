@@ -14,6 +14,8 @@ import android.widget.ImageView;
 
 import com.example.doanphanmem.R;
 import com.example.doanphanmem.adapter.ProductAdapter;
+
+import com.example.doanphanmem.db.MyDatabase;
 import com.example.doanphanmem.model.Products;
 
 import java.util.ArrayList;
