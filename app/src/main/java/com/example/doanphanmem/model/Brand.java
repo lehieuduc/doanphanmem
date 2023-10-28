@@ -37,7 +37,4 @@ public class Brand implements Serializable {
         ImageBrand = imageBrand;
     }
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/main

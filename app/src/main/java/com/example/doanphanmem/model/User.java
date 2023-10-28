@@ -1,10 +1,6 @@
 package com.example.doanphanmem.model;
 
 import java.io.Serializable;
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/main
 public class User implements Serializable {
     int IdUser;
     String NameUser;
@@ -89,7 +85,4 @@ public class User implements Serializable {
         this.role = role;
     }
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/main
