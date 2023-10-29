@@ -19,6 +19,7 @@ import com.example.doanphanmem.R;
 import com.example.doanphanmem.adapter.CartAdapter;
 import com.example.doanphanmem.db.MyDatabase;
 import com.example.doanphanmem.model.Cart;
+import com.example.doanphanmem.model.User;
 import com.example.doanphanmem.ui.Login;
 import com.google.android.material.textfield.TextInputEditText;
 
