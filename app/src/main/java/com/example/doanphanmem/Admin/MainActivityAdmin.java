@@ -1,15 +1,15 @@
 package com.example.doanphanmem.Admin;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import com.example.doanphanmem.Activity.MainActivity;
-import com.example.doanphanmem.ui.Login;
 import com.example.doanphanmem.R;
+import com.example.doanphanmem.ui.Login;
 
 public class MainActivityAdmin extends AppCompatActivity {
 

@@ -1,5 +1,11 @@
 package com.example.doanphanmem.Admin;
 
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DividerItemDecoration;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,16 +13,10 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.DividerItemDecoration;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
+import com.example.doanphanmem.R;
 import com.example.doanphanmem.adapter.OrderAdapter;
 import com.example.doanphanmem.db.MyDatabase;
 import com.example.doanphanmem.model.Order;
-import com.example.doanphanmem.R;
 
 import java.util.ArrayList;
 

@@ -10,14 +10,14 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.doanphanmem.R;
 import com.example.doanphanmem.adapter.ListOrderAdminAdapter;
 import com.example.doanphanmem.db.MyDatabase;
 import com.example.doanphanmem.model.Order;
-import com.example.doanphanmem.R;
 
 import java.util.ArrayList;
 
-/*public class ListOrderForAdmin extends AppCompatActivity implements ListOrderAdminAdapter.Listener {
+public class ListOrderForAdmin extends AppCompatActivity implements ListOrderAdminAdapter.Listener {
 
     ArrayList<Order> arrOrder;
     RecyclerView rcvOrder;

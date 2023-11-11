@@ -12,16 +12,49 @@
         android:theme="@style/Theme.Doanphanmem"
         tools:targetApi="31">
         <activity
-            android:name=".CartActivity"
+            android:name=".Admin.OrderDetailAdminActivity"
             android:exported="false" />
         <activity
-            android:name=".ShopActivity"
+            android:name=".Admin.ListOrderForAdmin"
             android:exported="false" />
         <activity
-            android:name=".Register"
+            android:name=".Activity.SearchActivity"
             android:exported="false" />
         <activity
-            android:name=".Login"
+            android:name=".Admin.AddBrand"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.OrderDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AllProAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.EditPro"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.MainActivityAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AddProduct"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PayProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Register"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Login"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ProductInfo"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ShopActivity"
             android:exported="false" />
         <activity
             android:name=".Activity.MainActivity"
